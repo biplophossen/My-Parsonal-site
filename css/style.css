@@ -1,0 +1,139 @@
+/*----Nav section--*/
+.navbar {
+	background-color: #888383;
+	border-bottom: 2px solid #ffffff;
+	opacity: 0.8;
+}
+
+/*----Nav section End--*/
+
+
+
+/*----HOME SECTION START----*/
+#home-section {
+	background-image: linear-gradient(rgba(51, 51, 51, 0.64), rgba(51, 51, 51, 0.64)), url(../img/hero-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	background-attachment: fixed;
+}
+
+.fist-row {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.fist-row {
+	color: #fff;
+	font-size: 17px;
+}
+
+@media (max-width: 580px) {
+	.row {
+		width: 900px;
+		margin: auto;
+		position: absolute;
+	}
+}
+
+.headline-js {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 20px;
+}
+
+.title-text {
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60%;
+	margin: auto;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+@media (max-width: 580px) {
+	.title-text {
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+
+.btn-hero {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding-left: 10px;
+}
+
+@media (max-width: 580px) {
+	.btn-hero {
+		margin-top: 20px;
+	}
+}
+
+.mouse {
+	position: relative;
+	border: 3px solid rgba(255, 255, 255, 0.6);
+	width: 23px;
+	height: 40px;
+	border-radius: 85px;
+	position: absolute;
+	left: 50%;
+	top: 90%;
+	transform: translate(-50%, -50%);
+}
+
+.wheel {
+	position: absolute;
+	background: rgba(255, 255, 255, 0.6);
+	width: 3px;
+	height: 13px;
+	left: 8px;
+	border-radius: 20px;
+	animation: wheel 2s ease infinite;
+}
+
+.contact-text {
+	text-transform: uppercase;
+
+}
+
+@keyframes wheel {
+	0% {
+		top: 13px;
+		transform: translate(-50%, -50%);
+		opacity: 1;
+	}
+
+	100% {
+		top: 80%;
+		transform: translate(-50%, -50%);
+		opacity: 0;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	.mouse {
+		position: absolute;
+		left: 50%;
+		top: 95%;
+		transform: translate(-50%, -50%);
+	}
+}
+@media screen and (max-width: 500px){
+	#particles-js{
+		height: 100vh;
+	}
+}
+/* End Header Section */
